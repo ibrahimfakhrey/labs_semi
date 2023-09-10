@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>not_done</title>
+</head>
+<body>
+<form action="{{ url_for('done') }}" method="post">
+    <input type="text" placeholder="enter your name" name="name">
+    <input type="text" placeholder="enter your case" name="case">
+    <input type="text" placeholder="enter your notes" name="notes">
+    <input type="text" placeholder="enter your phone" name="phone">
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
